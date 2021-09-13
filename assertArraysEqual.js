@@ -21,5 +21,10 @@ const eqArrays = function (arr1, arr2) {
   return response;
 }
 
-console.log(assertEqual(eqArrays([1, 2, 3], [1, 2, 3]), true));
-//Pass
+const assertArraysEqual = function (arr1, arr2) {
+  return eqArrays(arr1, arr2);
+}
+
+console.log(assertArraysEqual([5, 2, 3], [1, 2, 3]))
+
+assertEqual(assertArraysEqual([3, 2, 3], [1, 2, 3]), false)
