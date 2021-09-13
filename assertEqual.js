@@ -5,5 +5,3 @@ let assertEqual = function (actual, expected) {
     console.log(`❌❌❌ Assertion Failed: ${actual} === ${expected}`);
   }
 }
-
-assertEqual('uj', 'uj');
