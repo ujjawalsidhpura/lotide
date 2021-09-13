@@ -9,4 +9,3 @@ const assertEqual = function (actual, expected) {
 const head = function (arr, headElement) {
   return arr[0];
 }
-
