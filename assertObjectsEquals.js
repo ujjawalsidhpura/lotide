@@ -25,3 +25,5 @@ const eqObjects = function (object1, object2) {
   }
   return arr1
 };
+
+module.exports = assertObjectsEqual;

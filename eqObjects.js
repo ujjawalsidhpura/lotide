@@ -30,3 +30,5 @@ const eqObjects = function (object1, object2) {
 
 // const abc = { a: "1", b: "2", c: "3" };
 // console.log(eqObjects(ab, abc)); // => false
+
+module.exports = eqObjects;

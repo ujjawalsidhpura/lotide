@@ -9,3 +9,5 @@ const map = function (array, callback) {
 
   return result;
 }
+
+module.exports = map;

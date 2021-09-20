@@ -48,3 +48,5 @@ assertEqual(result1["Agouhanna"], undefined);
 
 //personla test case
 console.log(countOnly(firstNames, obj))
+
+module.exports = countOnly;
